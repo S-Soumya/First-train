@@ -19,6 +19,7 @@ def plot_shape_2d(original, transformed, operation):
     plt.show()
 
 # Function to plot 3D shapes
+
 def plot_shape_3d(original, transformed, operation):
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
