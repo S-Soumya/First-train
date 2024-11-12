@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 #from mpl_toolkits.mplot3d import Axes3D
 
 # Function to plot 2D shapes
+
 def plot_shape_2d(original, transformed, operation):
     original = np.vstack((original, original[0]))  # Close the polygon
     transformed = np.vstack((transformed, transformed[0]))
