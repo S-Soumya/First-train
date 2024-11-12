@@ -11,11 +11,11 @@ int dist(int d[], bool s[])
 	int v; 
 	for(v = 0; v < stations; v++) 
 	{ 
-	if(s[v] == false && d[v] <= min) 
-	{
-		min = d[v]; 
-		mi = v;
-	} 
+		if(s[v] == false && d[v] <= min) 
+		{
+			min = d[v]; 
+			mi = v;
+		}
 	} 
 	return mi; 
 }
